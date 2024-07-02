@@ -50,7 +50,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-between;
   padding: 0 1rem;
   background-color: var(--clr2);
 }
