@@ -121,4 +121,6 @@ section {
 } .links {
    flex-direction: column;
    position: relative;
+} .hero {
+   
 }
