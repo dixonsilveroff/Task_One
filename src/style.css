@@ -12,6 +12,7 @@
 }
 body {
   margin: 0;
+  background-color: var(--clr1);
 }
 
 /* TYPOGRAPHY */
@@ -27,19 +28,20 @@ header h2 {
   gap: 1rem;
   background-color: var(--clr2);
   a {
-   background-color: var(--clr2);
-   color: var(--clr4);
-   text-decoration: none;
-   
-   a:focus,:hover {
+    background-color: var(--clr2);
+    color: var(--clr4);
+    text-decoration: none;
+
+    a:focus,
+    :hover {
       color: var(--clr1);
-   }
+    }
   }
 }
 
 /* LAYOUT */
 main {
-   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -53,74 +55,76 @@ header {
   background-color: var(--clr2);
 }
 .nav {
-   background-color: var(--clr2);
- }
+  background-color: var(--clr2);
+}
 section {
-   padding: 1.5rem 5rem;
+  margin: 1.5rem 0;
 }
 .hero {
-   display: inline-flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   gap: 20px;
-   background-color: var(--clr1);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--clr1);
 }
 
 .details {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: center;
-   gap: 10px;
-   a {
-      text-decoration: none;
-      margin: -5px 0;
-   }
-   p {
-      margin: 0;
-   }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  a {
+    text-decoration: none;
+    margin: -5px 0;
+  }
+  p {
+    margin: 0;
+  }
 }
-.details > a:visited, .nav-ul > a:visited {
-   color: var(--clr3);
+.details > a:visited,
+.nav-ul > a:visited {
+  color: var(--clr3);
 }
 .goals {
-   background-color: var(--clr2);
+  background-color: var(--clr2);
+  padding: 0 1rem;
 }
 .goal {
-   display: flex;
-   gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 .goals h3 {
-   text-align: center;
-   color: var(--clr1);
-   font-size: larger;
+  text-align: center;
+  color: var(--clr1);
+  font-size: larger;
 }
 .goals p {
-   text-align: center;
-   color: var(--clr1);
+  text-align: center;
+  color: var(--clr1);
 }
 
 .time-day {
-   background-color: var(--clr1);
-   display: flex;
-   flex-direction: row;
-   gap: 20px;
+  background-color: var(--clr1);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 .td {
-   text-align: center;
-   font-size: 1.5rem;
-   margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0;
 }
 
 @media only screen and (min-width: 1025px) {
-   .hero {
-      flex-direction: row;
-   }
-} .links {
-   flex-direction: column;
-   position: relative;
-} .hero {
-   
+  .hero {
+    flex-direction: row;
+  }
+
+  .hero {
+    gap: 25rem;
+  }
 }
+
