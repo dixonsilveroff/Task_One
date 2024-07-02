@@ -9,6 +9,7 @@
   font-family: "Cascadia Code", monospace;
   color: var(--clr2);
   font-size: 18px;
+  text-align: center;
 }
 body {
   margin: 0;
