@@ -89,7 +89,7 @@ section {
 }
 .goals {
   background-color: var(--clr2);
-  padding: 0 1rem;
+  padding: 2rem 1rem;
 }
 .goal {
   display: flex;
@@ -110,6 +110,7 @@ section {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  padding: 2rem 0;
 }
 
 .td {
@@ -122,9 +123,19 @@ section {
   .hero {
     flex-direction: row;
   }
+  .details {
+    a:visited {
+      color: var(--clr2);
+    }
+    a:hover {
+      color: var(--clr3);
+    }
+  }
 
   .hero {
     gap: 25rem;
   }
+  .goals {
+   padding: 2rem 10rem;
+  }
 }
-
