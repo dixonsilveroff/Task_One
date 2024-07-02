@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>HNG11 Task One - Portfolio</title>
+   <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+   <header>
+      <h2 title="VickCodes">VickCodes</h2>
+      <nav class="nav">
+         <ul class="nav-ul">
+            <li><a href="#goals">Goals</a></li>
+            <li><a href="#time-day">Time</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <section class="hero" id="hero">
+         <article id="details" class="details">
+            <p data-testid="slackDisplayName">VickCodes</p>
+            <p data-testid="slackEmail">dixonsilverofficial@gmail.com</p>
+            <a class="link1" target="_blank" href="https://hng.tech/learn" data-testid="hngLink">HNG</a>
+            <a class="link2" target="_blank" href="https://keyword.dog" data-testid="keywordLink">Keyword.dog</a>
+            <a class="link3" target="_blank" href="https://scrapeanyweb.site"
+               data-testid="scrapeanywebLink">Scrapeanyweb.site</a>
+         </article>
+         <img src="/src/img/vickCodes.jpg" alt="VickCodes" data-testid="slackProfilePicture">
+      </section>
+      <section class="goals" id="goals">
+         <h3>Goals</h3>
+         <article class="goal">
+            <p>To Strengthen my Responsive Web Design Skills and create a niche in it.</p>
+            <p>To get a well-paying job in the Web Development Industry as a Frontend Engineer</p>
+         </article>
+      </section>
+      <section class="time-day" id="time-day">
+         <p class="td" id="day" data-testid="currentDay"></p>
+         <p class="td" id="time" data-testid="currentTimeUTC"></p>
+      </section>
+   </main>
+
+   <script src="/src/script.js"></script>
+</body>
+
+</html>
